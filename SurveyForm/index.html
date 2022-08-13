@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <form action="noBackend.php">
+        <div class="container">
+          <h1 class="aa">Application For Permission To Date My Daughter</h1>
+          <p class="note">
+            <b>Note: </b>Form is to be completed at least 21 days prior to date
+          </p>
+          <div class="head">
+            <h2 class="h">Personal Details</h2>
+            <div>
+              <label for="name">Name: </label>
+              <input
+                type="text"
+                name="Name"
+                id="name"
+                placeholder="Enter name here"
+              />
+            </div>
+            <br>
+            <div>
+              <label for="address">Address: </label>
+              <input
+                type="text"
+                id="address"
+                placeholder="Enter address here"
+              />
+            </div>
+            <br>
+            <div>
+              <label for="email">Email: </label>
+              <input type="email" id="email" placeholder="Enter email here" />
+            </div>
+            <br>
+            <div>
+              <label for="no">Phone Number: </label>
+              <input
+                type="number"
+                id="no"
+                placeholder="Enter 10 digit number"
+              />
+            </div>
+            <br>
+            <div>
+              <label for="iq">IQ:</label>
+              <input type="number" id="iq" placeholder="Enter IQ here" />
+            </div>
+            <br>
+            <div>
+              Gender:
+              <br />
+              Male
+              <input type="radio" name="gender" checked />
+              Female
+              <input type="radio" name="gender" />
+              Other
+              <input type="radio" name="gender" />
+            </div>
+            <br>
+            <div>
+              <label for="date">Date of Proposed Outing: </label>
+              <input type="date" id="date" />
+            </div>
+            <br>
+          </div>
+          <div class="head1">
+            Check All that Apply
+            <br />
+            <input type="checkbox" id="option" />I have tattoos and/or piercings
+            <br />
+            <input type="checkbox" id="option" />I am more than 2 years older
+            than my daughter
+            <br />
+            <input type="checkbox" id="option" checked />I own a panel van or V8
+            ute
+            <br />
+            <input type="checkbox" id="option" checked />I work full-time
+            <br />
+            <input type="checkbox" id="option" />My parents are rich
+            <br />
+            <input type="checkbox" id="option" />Is the date at a well lit
+            public location
+          </div>
+          <div class="head2">
+            <p class="edu">
+              Political Persuasion:
+              <select name="wing">
+                <option value="lw">Left Wing</option>
+                <option value="rw">Right Wing</option>
+                <option value="cw">Conservative</option>
+                <option value="nw">Nazi</option>
+              </select>
+              Education Level Completed:
+              <select name="education">
+                <option value="Univ">University</option>
+                <option value="hs">High School</option>
+                <option value="Clg">College</option>
+                <option value="na">None</option>
+              </select>
+            </p>
+          </div>
+          <div class="head3">
+            <h2 class="essay">Essay Section</h2>
+            <p class="es">
+              In 50 words or more explain why you want to date my daughter
+            </p>
+            <textarea
+              name="essay"
+              id="ess"
+              cols="30"
+              rows="10"
+              placeholder="Enter Text Here"
+            ></textarea>
+            <p class="cont">Please upload contact details for 2 references</p>
+            <textarea
+              name="reference"
+              cols="30"
+              rows="10"
+              class="contact"
+            ></textarea>
+            <br />
+            <p class="cer">
+              Upload Police clearance Certificate, Bank Statement and Medical
+              Certificates here:
+              <button>Attach files</button>
+            </p>
+          </div>
+          <div class="button">
+            <input type="submit" value="Submit" class="but">
+            <input type="reset" value="Reset" class="but">
+          </div>
+        </div>
+      </form>
+    </main>
+    <footer>
+      <p>
+        Made By <a href="https://www.instagram.com/its_._ssr/">@Shubham</a>
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,69 @@
+body{
+    background-color: #edc42e;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 2%;
+    font-stretch: condensed;
+}
+.container
+{
+    margin: auto;
+    margin-top: 3%;
+    margin-bottom: 4%;
+    width: 65%;
+    background-color: #F0FFFF;
+    padding: 3%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    font-weight:
+    500;
+}
+.note{
+    text-align: center;
+}
+.aa{
+    text-align: center;
+    text-decoration: underline;
+}
+.head, .head1, .head2, .head3{
+    width: 90%;
+    border: black solid 1.5px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px;
+}
+.h, .essay{
+    text-decoration: underline;
+}
+.button{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+}
+.but{
+    background-color: #ca2c14;
+    color: white;
+    display: flex;
+    justify-content: center;
+    width: 15%;
+    font-size: 15px;
+    padding: 4px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.but:hover{
+    transition-duration: 200ms;
+    transition-timing-function: ease-in;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+footer{
+    font-style: italic;
+    font-family: cursive;
+    text-align: center;
+    width: 100%;
+    color: rgb(255, 0, 0);
+}
