@@ -1,0 +1,119 @@
+ *{
+    font-family: 'Roboto', sans-serif;
+     margin: 0px;
+     padding: 0px;
+ }
+.container{
+    background-image: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)), url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+    padding-left: 8%;
+    padding-right: 8%;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    color: white;
+    height: 12%;
+    align-items: center;
+}
+nav{
+    flex: 1;
+    text-align: center;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+}
+.menu{
+    width: 30px;
+    cursor: pointer;
+    margin-left: 40px;
+}
+nav ul{
+    margin-left: 45%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.row{
+    display: flex;
+    height: 88%;
+    align-items: center;
+}
+.col{
+    flex-basis: 50%;
+}
+h1{
+    color: white;
+    font-size: 80px;
+}
+p{
+    color: white;
+    line-height: 15px;
+    font-size: 11px;
+}
+button{
+    color: #000;
+    background-color: white;
+    border-radius: 20px;
+    width: 180px;
+    font-size: 12px;
+    border: 0;
+    padding: 12px 0px;
+    outline: none;
+    margin-top: 50px;
+}
+button:hover{
+    background: yellow;
+}
+h5{
+    color: white;
+}
+.card{
+    width: 200px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    margin: 10px 15px;
+    transition: transform 0.5s;
+}
+.card1{
+    background-image: url(aquamen.jpg);
+}
+.card2{
+    background-image: url(wolverine.jpg);
+}
+.card3{
+    background-image: url(joker-2019.jpg);
+}
+.card4{
+    background-image: url(inception.jpg);
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+h5{
+    color: white;
+    text-shadow: 0 0 5px #999;
+}
+.card p{
+    color: white;   
+    text-shadow: 0 0 5px #000;
+    font-size: 8px;
+}
